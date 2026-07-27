@@ -1,0 +1,29 @@
+{
+  "region": "RT",
+  "fold": "M238",
+  "kind": "horizon",
+  "horizon_idx": 5,
+  "modality_tag": "eeg_emg_photo",
+  "include_emg": true,
+  "include_photometry": true,
+  "in_channels": 3,
+  "window_sec": [
+    -18.0,
+    -15.0
+  ],
+  "val": {
+    "acc": 0.7627118644067796,
+    "auc": 0.8135198135198135
+  },
+  "test": {
+    "acc": 0.7406015037593985,
+    "auc": 0.8443665554864606
+  },
+  "n_train": 527,
+  "n_val": 59,
+  "n_test": 266,
+  "pos_rate_test": 0.5,
+  "selection_metric": "val_auc",
+  "best_val_auc": 0.8135198135198135,
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\v6_rt_h0_fold_screen\\classifiers_mm\\RT\\fold_M238\\eeg_emg_photo\\horizon_5\\best.pth"
+}

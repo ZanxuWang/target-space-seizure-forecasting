@@ -1,0 +1,25 @@
+{
+  "region": "RT",
+  "fold": "M238",
+  "kind": "horizon",
+  "horizon_idx": 5,
+  "window_sec": [
+    -18.0,
+    -15.0
+  ],
+  "val": {
+    "acc": 0.6271186440677966,
+    "auc": 0.7972027972027972
+  },
+  "test": {
+    "acc": 0.6578947368421053,
+    "auc": 0.8387133246650461
+  },
+  "n_train": 527,
+  "n_val": 59,
+  "n_test": 266,
+  "pos_rate_test": 0.5,
+  "selection_metric": "val_auc",
+  "best_selection_score": 0.7972027972027972,
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\v6_paper_RT_M238_eeg_classifiers_valauc\\classifiers\\fold_M238\\horizon_5\\best.pth"
+}

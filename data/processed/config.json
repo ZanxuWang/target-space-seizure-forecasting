@@ -1,0 +1,10 @@
+﻿{
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "ictal_min_separation_sec":  15.0,
+    "nonictal_onset_buffer_sec":  60.0,
+    "nonictal_min_separation_sec":  15.0,
+    "seed":  42,
+    "output_root":  "data/processed"
+}

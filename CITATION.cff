@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "Target-Space Seizure Forecasting with a Conditional Cross-Attention Diffusion Model"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Zanxu
+  - family-names: Luo
+    given-names: Yunhao
+  - family-names: Peng
+    given-names: Yueqing
+  - family-names: He
+    given-names: Xiaofu
+date-released: 2026-07-27
+license: MIT
+repository-code: "https://github.com/ZanxuWang/target-space-seizure-forecasting"

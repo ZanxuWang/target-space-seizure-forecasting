@@ -1,0 +1,13 @@
+region	fold	horizon_idx	diffusion_modality	test_auc	preictal_test_auc	preictal_mm_eeg_emg_photo_test_auc	target_test_auc	n_seeds_in_ensemble	n_samples_per_seed	n_total_generated_per_event	mean_val_condition_gap_auc	qc_tags
+RT	M238	0	eeg	0.906	0.7632	0.7849	0.9987	5	16	80	0.03511080332409973	weak_condition_gap
+RT	M238	0	eeg_emg_photo	0.9033	0.7632	0.7849	0.9987	5	16	80	0.17780470914127428	
+RT	M238	1	eeg	0.876	0.8521	0.8564	0.9987	5	16	80	0.024238227146814385	weak_condition_gap
+RT	M238	1	eeg_emg_photo	0.8624	0.8521	0.8564	0.9987	5	16	80	0.14736842105263154	
+RT	M238	2	eeg	0.8727	0.8608	0.8156	0.9987	5	16	80	0.024134349030470938	mm_classifier_under_eeg;weak_condition_gap
+RT	M238	2	eeg_emg_photo	0.888	0.8608	0.8156	0.9987	5	16	80	0.15294321329639887	mm_classifier_under_eeg
+RT	M238	3	eeg	0.832	0.5954	0.8336	0.9987	5	16	80	0.06513157894736843	
+RT	M238	3	eeg_emg_photo	0.8766	0.5954	0.8336	0.9987	5	16	80	0.203808864265928	
+RT	M238	4	eeg	0.8583	0.8605	0.7678	0.9987	5	16	80	0.012638504155124663	diffusion_not_above_matched_classifier;mm_classifier_under_eeg;weak_condition_gap
+RT	M238	4	eeg_emg_photo	0.8922	0.8605	0.7678	0.9987	5	16	80	0.15100415512465368	mm_classifier_under_eeg
+RT	M238	5	eeg	0.8088	0.8387	0.8444	0.9987	5	16	80	0.085387811634349	diffusion_not_above_matched_classifier
+RT	M238	5	eeg_emg_photo	0.8553	0.8387	0.8444	0.9987	5	16	80	0.10159279778393351	

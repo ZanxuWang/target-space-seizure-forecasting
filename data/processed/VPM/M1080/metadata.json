@@ -1,0 +1,21 @@
+﻿{
+    "region":  "VPM",
+    "mouse_id":  "M1080",
+    "n_ictal":  130,
+    "n_nonictal":  130,
+    "n_total":  260,
+    "n_files":  5,
+    "n_events_in_recordings":  434,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg3_m0-60.mat",
+                         "eeg3_m0-59.5.mat",
+                         "eeg3_m0-59.5.mat",
+                         "eeg3_m0-59.5.mat",
+                         "eeg3_m0-59.5.mat"
+                     ]
+}

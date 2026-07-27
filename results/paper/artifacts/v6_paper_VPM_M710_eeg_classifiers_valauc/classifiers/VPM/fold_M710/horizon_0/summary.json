@@ -1,0 +1,25 @@
+{
+  "region": "VPM",
+  "fold": "M710",
+  "kind": "horizon",
+  "horizon_idx": 0,
+  "window_sec": [
+    -3.0,
+    0.0
+  ],
+  "val": {
+    "acc": 0.625,
+    "auc": 0.8606701940035273
+  },
+  "test": {
+    "acc": 0.6848739495798319,
+    "auc": 0.7149212626226961
+  },
+  "n_train": 428,
+  "n_val": 48,
+  "n_test": 238,
+  "pos_rate_test": 0.5,
+  "selection_metric": "val_auc",
+  "best_selection_score": 0.8606701940035273,
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\v6_paper_VPM_M710_eeg_classifiers_valauc\\classifiers\\VPM\\fold_M710\\horizon_0\\best.pth"
+}

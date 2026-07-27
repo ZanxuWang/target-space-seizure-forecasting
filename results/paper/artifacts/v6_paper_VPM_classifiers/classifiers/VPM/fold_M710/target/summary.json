@@ -1,0 +1,23 @@
+{
+  "region": "VPM",
+  "fold": "M710",
+  "kind": "target",
+  "horizon_idx": null,
+  "window_sec": [
+    0.0,
+    3.0
+  ],
+  "val": {
+    "acc": 0.8541666666666666,
+    "auc": 0.9241622574955909
+  },
+  "test": {
+    "acc": 0.7478991596638656,
+    "auc": 0.9233811171527436
+  },
+  "n_train": 428,
+  "n_val": 48,
+  "n_test": 238,
+  "pos_rate_test": 0.5,
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\v6_paper_VPM_classifiers\\classifiers\\VPM\\fold_M710\\target\\best.pth"
+}

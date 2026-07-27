@@ -1,0 +1,20 @@
+﻿{
+    "region":  "VPM",
+    "mouse_id":  "M711",
+    "n_ictal":  73,
+    "n_nonictal":  73,
+    "n_total":  146,
+    "n_files":  4,
+    "n_events_in_recordings":  228,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg3_m0-60_phot3dots.mat",
+                         "eeg3_m0-60.mat",
+                         "eeg3_m0-60.mat",
+                         "eeg3_m0-60.mat"
+                     ]
+}

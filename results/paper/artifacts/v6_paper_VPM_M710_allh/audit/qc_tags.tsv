@@ -1,0 +1,13 @@
+region	fold	horizon_idx	diffusion_modality	test_auc	preictal_test_auc	preictal_mm_eeg_emg_photo_test_auc	target_test_auc	n_seeds_in_ensemble	n_samples_per_seed	n_total_generated_per_event	mean_val_condition_gap_auc	qc_tags
+VPM	M710	0	eeg	0.7482	0.7149	0.7264	0.9234	5	16	80	0.2517551020408163	
+VPM	M710	0	eeg_emg_photo	0.7768	0.7149	0.7264	0.9234	5	16	80	0.24375510204081632	
+VPM	M710	1	eeg	0.7642	0.7309	0.7231	0.9234	5	16	80	0.21061224489795913	
+VPM	M710	1	eeg_emg_photo	0.7295	0.7309	0.7231	0.9234	5	16	80	0.1707755102040816	mm_diffusion_under_eeg
+VPM	M710	2	eeg	0.7584	0.7065	0.684	0.9234	5	16	80	0.24489795918367346	mm_classifier_under_eeg
+VPM	M710	2	eeg_emg_photo	0.7542	0.7065	0.684	0.9234	5	16	80	0.1503673469387755	mm_classifier_under_eeg
+VPM	M710	3	eeg	0.7548	0.7545	0.6202	0.9234	5	16	80	0.15232653061224488	mm_classifier_under_eeg
+VPM	M710	3	eeg_emg_photo	0.7143	0.7545	0.6202	0.9234	5	16	80	0.14383673469387753	mm_classifier_under_eeg;mm_diffusion_under_eeg
+VPM	M710	4	eeg	0.7679	0.7494	0.5477	0.9234	5	16	80	0.17567346938775513	mm_classifier_under_eeg;weak_auc
+VPM	M710	4	eeg_emg_photo	0.7425	0.7494	0.5477	0.9234	5	16	80	0.18171428571428566	mm_classifier_under_eeg;mm_diffusion_under_eeg;weak_auc
+VPM	M710	5	eeg	0.7233	0.735	0.5759	0.9234	5	16	80	0.15591836734693879	diffusion_not_above_matched_classifier;mm_classifier_under_eeg
+VPM	M710	5	eeg_emg_photo	0.6938	0.735	0.5759	0.9234	5	16	80	0.1856326530612245	mm_classifier_under_eeg;mm_diffusion_under_eeg

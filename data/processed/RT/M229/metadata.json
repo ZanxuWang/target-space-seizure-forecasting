@@ -1,0 +1,19 @@
+﻿{
+    "region":  "RT",
+    "mouse_id":  "M229",
+    "n_ictal":  76,
+    "n_nonictal":  76,
+    "n_total":  152,
+    "n_files":  3,
+    "n_events_in_recordings":  227,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg3_m0-120.mat",
+                         "eeg3_m0-119swd.mat",
+                         "eeg3_m0-119swd.mat"
+                     ]
+}

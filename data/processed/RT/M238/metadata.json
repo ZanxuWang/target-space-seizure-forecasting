@@ -1,0 +1,18 @@
+﻿{
+    "region":  "RT",
+    "mouse_id":  "M238",
+    "n_ictal":  133,
+    "n_nonictal":  133,
+    "n_total":  266,
+    "n_files":  2,
+    "n_events_in_recordings":  568,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg1_m0-180bin0.5step0.2.mat",
+                         "eeg1_m0-180.mat"
+                     ]
+}

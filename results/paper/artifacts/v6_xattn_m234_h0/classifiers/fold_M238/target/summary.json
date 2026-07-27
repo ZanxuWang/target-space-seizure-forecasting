@@ -1,0 +1,18 @@
+{
+  "fold": "M238",
+  "kind": "target",
+  "horizon_idx": null,
+  "window_sec": [
+    0.0,
+    3.0
+  ],
+  "val": {
+    "acc": 0.9830508474576272,
+    "auc": 0.9988344988344988
+  },
+  "test": {
+    "acc": 0.924812030075188,
+    "auc": 0.9986997569110747
+  },
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\classifiers\\fold_M238\\target\\best.pth"
+}

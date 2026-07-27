@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "processed_mice": 9,
+  "processed_events": 1566,
+  "table4_auc_cells_verified": 60,
+  "paired_delta_auc_rows_verified": 24,
+  "ensemble_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "samples_per_seed": 16,
+  "generated_targets_per_event": 80
+}

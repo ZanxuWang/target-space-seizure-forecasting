@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.csv -text -diff
+*.npz -text -diff
+*.pdf -text -diff
+*.png -text -diff
+*.pptx -text -diff

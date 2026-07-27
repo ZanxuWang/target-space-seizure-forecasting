@@ -1,0 +1,18 @@
+﻿{
+    "region":  "RT",
+    "mouse_id":  "M233",
+    "n_ictal":  94,
+    "n_nonictal":  94,
+    "n_total":  188,
+    "n_files":  2,
+    "n_events_in_recordings":  537,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg3_m0-120swd.mat",
+                         "eeg3_m0-240swd.mat"
+                     ]
+}

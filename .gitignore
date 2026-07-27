@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Full retraining products are intentionally not versioned.
+outputs/
+*.pth
+*.pt
+*.ckpt
+
+# Recreated locally by the one-command snapshot workflow.
+results/paper/reproduced_figures/
+results/paper/generated_target_artifacts/
+
+# Local scratch files.
+tmp/
+scratch/
+*.log

@@ -1,0 +1,17 @@
+﻿{
+    "region":  "RT",
+    "mouse_id":  "M234",
+    "n_ictal":  40,
+    "n_nonictal":  40,
+    "n_total":  80,
+    "n_files":  1,
+    "n_events_in_recordings":  108,
+    "samples_per_window":  5376,
+    "window_sec":  21.0,
+    "pre_window_sec":  18.0,
+    "post_window_sec":  3.0,
+    "target_sr":  256,
+    "source_files":  [
+                         "eeg1_m0-120.mat"
+                     ]
+}

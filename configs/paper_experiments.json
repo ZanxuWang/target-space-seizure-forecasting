@@ -1,0 +1,76 @@
+{
+  "paper_title": "Target-Space Seizure Forecasting with a Conditional Cross-Attention Diffusion Model",
+  "sampling_rate_hz": 256,
+  "target_seconds": [0, 3],
+  "horizons_seconds": {
+    "h0": [-3, 0],
+    "h1": [-6, -3],
+    "h2": [-9, -6],
+    "h3": [-12, -9],
+    "h4": [-15, -12],
+    "h5": [-18, -15]
+  },
+  "splits": {
+    "RT": {
+      "train": ["M233", "M234", "M237"],
+      "validation": ["M229"],
+      "test": ["M238"]
+    },
+    "VPM": {
+      "paper_label": "TC",
+      "train": ["M711", "M1080"],
+      "validation": ["M1079"],
+      "test": ["M710"]
+    }
+  },
+  "diffusion": {
+    "seeds": [0, 1, 2, 3, 4],
+    "samples_per_seed": 16,
+    "generated_targets_per_event": 80,
+    "timesteps": 1000,
+    "ddim_steps": 50,
+    "guidance_scale": 2.0,
+    "epochs": 300,
+    "base_channels": 64,
+    "depth": 4,
+    "time_embedding_dim": 256,
+    "token_dim": 256,
+    "past_encoder_depth": 3,
+    "past_self_attention_layers": 2,
+    "conditioning_dropout": 0.15,
+    "loss_weights": {
+      "epsilon": 0.25,
+      "target_cross_entropy": 2.0,
+      "feature_matching": 10.0,
+      "past_cross_entropy": 1.0,
+      "mouse_adversarial": 0.5
+    },
+    "augmentation": {
+      "enabled": true,
+      "frequency_masks": 2,
+      "maximum_frequency_width": 6,
+      "time_masks": 2,
+      "maximum_time_width": 4,
+      "mixup_probability": 0.5,
+      "mixup_alpha": 0.4,
+      "cross_mouse_mixup": true
+    }
+  },
+  "stft": {
+    "window": "hann",
+    "n_fft": 128,
+    "hop_length": 32,
+    "maximum_frequency_hz": 60,
+    "output_shape": [31, 27]
+  },
+  "versions": {
+    "RT_multimodal_diffusion": "v6_paper_RT_M238_mm_allh",
+    "RT_eeg_diffusion": "v6_paper_RT_M238_eeg_allh",
+    "RT_eeg_classifier": "v6_paper_RT_M238_eeg_classifiers_valauc",
+    "RT_multimodal_classifier": "v6_rt_h0_fold_screen",
+    "VPM_multimodal_diffusion": "v6_paper_VPM_M710_allh",
+    "VPM_eeg_diffusion": "v6_paper_VPM_M710_eeg_allh",
+    "VPM_eeg_classifier": "v6_paper_VPM_M710_eeg_classifiers_valauc",
+    "VPM_multimodal_classifier": "v6_paper_VPM_classifiers"
+  }
+}

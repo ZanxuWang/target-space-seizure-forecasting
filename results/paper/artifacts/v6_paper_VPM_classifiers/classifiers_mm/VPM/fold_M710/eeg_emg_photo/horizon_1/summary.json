@@ -1,0 +1,29 @@
+{
+  "region": "VPM",
+  "fold": "M710",
+  "kind": "horizon",
+  "horizon_idx": 1,
+  "modality_tag": "eeg_emg_photo",
+  "include_emg": true,
+  "include_photometry": true,
+  "in_channels": 3,
+  "window_sec": [
+    -6.0,
+    -3.0
+  ],
+  "val": {
+    "acc": 0.8333333333333334,
+    "auc": 0.91005291005291
+  },
+  "test": {
+    "acc": 0.6260504201680672,
+    "auc": 0.7231480827625169
+  },
+  "n_train": 428,
+  "n_val": 48,
+  "n_test": 238,
+  "pos_rate_test": 0.5,
+  "selection_metric": "val_auc",
+  "best_val_auc": 0.91005291005291,
+  "ckpt": "${ORIGINAL_PROJECT}\\outputs\\v6_paper_VPM_classifiers\\classifiers_mm\\VPM\\fold_M710\\eeg_emg_photo\\horizon_1\\best.pth"
+}
