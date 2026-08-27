@@ -1,7 +1,6 @@
 # Target-Space Seizure Forecasting
 
-This is the reproducibility repository for **“Target-Space Seizure Forecasting
-with a Conditional Cross-Attention Diffusion Model.”** It contains the exact
+This is the reproducibility repository for **“From Preictal Signals to Onset-Adjacent EEG: Target-Space Seizure Forecasting with Conditional Diffusion”** It contains the exact
 processed event tensors used in the paper, the active training and aggregation
 code, the saved held-out probabilities behind the numerical results, and the
 scripts/data required to redraw Figures 3–8.
@@ -66,8 +65,6 @@ scripts/paper_figures/      final-paper Figure 3–8 renderers
 results/paper/artifacts/    compact held-out probabilities/configs/logs (no weights)
 results/paper/figure_data/  cached arrays required for diagnostic panels
 results/paper/figures/      checked-in final figure files
-assets/editable_figures/    editable PowerPoint sources for Figures 1–2
-paper/                      polished paper PDF
 docs/                       code mapping, commands, provenance and audit notes
 ```
 
