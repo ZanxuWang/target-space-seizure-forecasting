@@ -71,11 +71,4 @@ paper/                      polished paper PDF
 docs/                       code mapping, commands, provenance and audit notes
 ```
 
-The on-disk cohort identifier `VPM` is labeled `TC` in the paper. The
-classifier training implementation is preserved exactly as used for the
-reported results, including the authors’ acknowledged split convention.
 
-See [PAPER_CODE_MAP.md](docs/PAPER_CODE_MAP.md) for the result-by-result
-mapping, [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for exact commands, and
-[VALIDATION.md](docs/VALIDATION.md) for the release checks. `MANIFEST.sha256`
-records content hashes for the complete reproducibility snapshot.
